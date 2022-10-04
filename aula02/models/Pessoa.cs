@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace aula02.models {
     public class Pessoa {
-        public string nome {get; set;}
+        public string nome {get; set;} = "";
         public int idade {get; set;}
 
         public void Apresentar() {
